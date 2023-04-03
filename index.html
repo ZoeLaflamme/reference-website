@@ -5,25 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reference website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <a href="#Part1" class="skip">skip to part 1 </a>
 </head>
 <body>
     
 </body>
 </html>
 
-<header>
-        <!-- Add header here -->
+<header role="banner">
+    <h1>Reference website</h1>
+    <nav role="navigation">
+        <ul>
+        <li><a href="#Part1">HTML tags and elements</a></li>
+        <li><a href="#Part2">Body structure</a></li>
+        <li><a href="#part3-4-5">Linking to an element on the same page, Comments and Landmark roles</a></li>
+        <li><a href="#part6-7">Arials and skip links</a></li>
+        <li><a href="#part8">Fonts Property</a></li>
+        <li><a href="#part9">Text decoration</a></li>
+        <li><a href="#part11-12-13">Google fonts, Margin and Padding</a></li>
+    </ul>
+    </nav>
 
 </header>
 
-<main>
+<main role="main">
     <section class="part1">
     <div>
-    <h2> HTML tags and elements </h2>
+    <h3> HTML tags and elements </h3>
     </div>
     </section>
 
-    <section id="Part 1" class="part 1">
+    <section id="Part1" class="part1">
 
         <h1> Header h1</h1>
         <h2>Header h2</h2>
@@ -35,10 +51,31 @@
         <p>Paragraph = p </p>
 
         <h3>Lists</h3>
+        <p> li = list </p>
         <p>unroganised list = ul </p>
+        <ul>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+        <li>d</li>
+        </ul>
+
+    
         <p>organised list = ol </p>
+       <ol>
+        <li>a</li>
+        <li>b</li>
+        <li>c</li>
+        <li>d</li>
+        </ol>
+
         <p>description list = dl</p>
-        <!-- Add example for lists here -->
+        <dl>
+        <dt>a</dt>
+        <dd>b</dd>
+        <dt>c</dt>
+        <dd>d</dd>
+        </dl>
 
         <p> a = link (creates hyperlinks)</p> 
         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">link here</a>
@@ -59,13 +96,13 @@
         <p><small>small</small></p>
     </section>
 
-    <section class="part 2">
+    <section class="part2">
         <div>
         <h3> Body structure </h3>
         </div>
         </section>
 
-        <section id="Part 2">
+        <section id="Part2">
            <p>Header = section main elements </p>
            <p>Footer = end page elements at bottom</p>
            <p>main = elements wrap around main (only 1 per page)</p>
@@ -73,19 +110,19 @@
            <p> article = self contained element in web page</p>
            <p> nav = navigation link section </p>
            <ul>
-            <li><a href="#Part 1">p1</a></li>
-            <li><a href="#Part 2">p2</a></li>
+            <li><a href="#Part1">p1</a></li>
+            <li><a href="#Part2">p2</a></li>
           </ul>
         </section>
 
-        <section class="parts 3,4,5">
+        <section class="part3-4-5">
             <div>
             <h3>Linking to an element on the same page, Comments and Landmark roles</h3>
         </div>
         </section>
 
-        <section id="parts 3,4,5">
-            <p> link element to same page use # to id and a ref = <a href="#Part 1">link</a> </p>
+        <section id="part3-4-5">
+            <p> link element to same page use # to id and a ref = <a href="#Part1">link</a> </p>
             <p> comment = not shwon on webpage but helps document html</p>
             <!-- Comment right here and notes -->
 
@@ -95,69 +132,78 @@
             <p> main role = main</p>
             <p>aside role = complimentary</p>
             <p>footer role = footer</p>
-        <!-- Add example for landmark here -->
 
         </section>
 
-        <section class="part 6,7">
+        <section class="part6-7">
             <div>
-            <h3> arials and skip links</h3>
+            <h3> Arials and skip links</h3>
             </div>
             </section>
 
-            <section id="part 6,7">
+            <section id="part6-7">
                 <p>arials here</p>
-                 <!-- Add example for arials here -->
-                <p><a href="#Part 2" class="part 2">Skip to main content</a></p>
-                <!-- Fix here  -->
+
+                 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" aria-label="click here to get ricked-roled">click here for a surprise</a>
+
+                 <p>skip links</p>
+
+                <p><a href="#Part2" class="part2">Skip to main content</a></p>
+                <a href="#Part1" class="skip">skip to part 1 </a>
             </section>
 
-            <section class="part 8">
+            <section class="part8">
                 <div>
                 <h3> Fonts Property</h3>
                 </div>
                 </section>
 
-                <section id="part 7">
+                <section id="part8">
                     <p>Everything is done in css and linked to the html </p>
                     <p> font-family </p>
                     <p> font-size</p>
                     <p> font-weight</p>
                     <p> font-style</p>
-                    <p> font-height</p>
-                    <p>font-shorthand</p>
+                    <p> line-height</p>
                 </section>
-                <!-- Add example in css -->
 
-                <section class="part 9,10">
+                <section class="part9">
                     <div>
                     <h3> Text decoration</h3>
                     </div>
                     </section>
     
-                    <section id="part 9,10">
+                <section id="part9">
                     <p>text-decoration</p>
                     <p>text-align</p>
                     <p>text-indent</p>
                     <p>text-shadow</p>
+                </section>
+
+                <section id="part10">
 
                     <h3>links</h3>
-                    
-                    <p>default</p>
-                    <p>hover</p>
-                    <p>visited</p>
-                    <p>hover</p>
+                    <ol>
+                    <p><li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">default</a></li></p>
+                    <p><li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">hover</a></li></p>
+                    <p><li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">visited</a></li></p>
+                    <p><li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">hover</a></li></p>
+                    </ol>
                     </section>
                 <!-- Add example in css -->
 
-                <section class="part 11,12,13">
+                <section class="part11-12-13">
                     <div>
                     <h3> Google fonts, Margin and Padding</h3>
                     </div>
                     </section>
                     
-                    <section id="part 11,12,13">
-
+                    <section id="part11-12-13">
+                        <p> Go to google fonts and select font and copy and paste link for html in doctype head and use it in css</p>
 
                     </section>
 </main>
+
+    <footer role="contentinfo">
+    <p><small> @Add footer here at bottom page@</small></p>
+    </footer>

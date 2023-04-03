@@ -1,0 +1,51 @@
+#part8 > p:nth-child(2) {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#part8 > p:nth-child(3) {
+    font-size: larger;
+}
+
+#part8 > p:nth-child(4) {
+    font-weight: bolder;
+}
+
+#part8 > p:nth-child(5) {
+   font-style: oblique;
+}
+
+#part8 > p:nth-child(6) {
+    line-height:  0.5em;
+}
+
+
+#part9 > p:nth-child(1) {
+    text-transform:uppercase;
+}
+
+#part9 > p:nth-child(2) {
+    text-align: center;
+}
+
+#part9 > p:nth-child(3) {
+    text-indent: 1.5em;
+}
+
+#part9 > p:nth-child(4) {
+    text-shadow: 3px -5px 9px blue;
+}
+
+style links
+a:link 
+a:hover {color: aqua; }
+
+
+#part10 > p:nth-child(3) 
+    a:visited {color: cornflowerblue;}
+     /*fix here*/
+
+#part11-12-13 {
+    font-family: 'Changa One', cursive;
+    padding: 3rem;
+    margin: 2px;
+}
