@@ -35,17 +35,18 @@
     text-shadow: 3px -5px 9px blue;
 }
 
-style links
-a:link 
-a:hover {color: aqua; }
+a:visited {color: crimson;}
+a:focus {color: darkgreen;}
 
-
-#part10 > p:nth-child(3) 
-    a:visited {color: cornflowerblue;}
+li a:hover {color: deepskyblue; text-decoration:none;}
      /*fix here*/
 
 #part11-12-13 {
     font-family: 'Changa One', cursive;
     padding: 3rem;
     margin: 2px;
+}
+
+img {
+width: 20%;
 }
